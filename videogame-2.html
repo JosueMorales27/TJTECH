@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo de Videojuegos - TJtech</title>
+  <link rel="stylesheet" href="me.css">
+  <script src="https://kit.fontawesome.com/3426e33aea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Barra de Navegación -->
+  <nav class="nav">
+    <div class="nav__brand"><a href="#">TJtech</a></div>
+    <ul class="nav__ul">
+      <li class="nav__li"><a href="flipper.html"><i class="fas fa-th-large"></i> Flipper Zero</a></li>
+      <li class="nav__li"><a href="cibersecurity.html"><i class="fas fa-shield-alt"></i> Herramientas de Ciberseguridad</a></li>
+      <li class="nav__li"><a href="PC.html"><i class="fas fa-desktop"></i> Mods de PC</a></li>
+      <li class="nav__li"><a href="accesories.html"><i class="fas fa-cogs"></i> Accesorios</a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Encabezado del Producto -->
+  <header>
+    <h1>Módulo de Videojuegos para Flipper Zero</h1>
+    <p>Mejora tu Flipper Zero con nuevas funciones de juego y desarrollo.</p>
+  </header>
+
+  <!-- Contenido Principal del Producto -->
+  <main>
+    <section class="product-details">
+      <div class="image-slider">
+        <div class="slider-track">
+          <img src="https://shop.flipperzero.one/cdn/shop/products/video-game-module-1.jpg" alt="Módulo de Videojuegos - Vista Frontal" class="active">
+          <img src="https://shop.flipperzero.one/cdn/shop/products/video-game-module-2.jpg" alt="Módulo de Videojuegos - Vista Lateral">
+          <img src="https://shop.flipperzero.one/cdn/shop/products/video-game-module-3.jpg" alt="Módulo de Videojuegos - Vista Superior">
+        </div>
+        <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+      </div>
+
+      <div class="product-info">
+        <h2>Módulo de Videojuegos</h2>
+        <p class="product-price">$49.00</p>
+        <p class="product-description">
+          El Módulo de Videojuegos para Flipper Zero, alimentado por un microcontrolador Raspberry Pi RP2040, te permite jugar en tu TV, utilizar un sensor de movimiento integrado para experiencias interactivas y conectar componentes DIY a través de un puerto GPIO de 14 pines. También cuenta con un puerto USB-C para comunicación directa con PC y actualizaciones de firmware, y puede funcionar como un dispositivo independiente.
+        </p>
+        <ul class="product-features">
+          <li>Microcontrolador Raspberry Pi RP2040</li>
+          <li>Salida de video para pantalla de TV</li>
+          <li>Sensor de movimiento con API abierta</li>
+          <li>Puerto GPIO de 14 pines para proyectos DIY</li>
+          <li>Puerto USB-C para comunicación con PC</li>
+          <li>Modo independiente con firmware alternativo</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer>
+    <p>&copy; 2023 TJtech. Todos los derechos reservados.</p>
+  </footer>     
+
+  <script src="me.js"></script>
+</body>
+</html>

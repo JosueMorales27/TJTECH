@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placa de Desarrollo WiFi - TJtech</title>
+  <link rel="stylesheet" href="me.css">
+  <script src="https://kit.fontawesome.com/3426e33aea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Barra de Navegación -->
+  <nav class="nav">
+    <div class="nav__brand"><a href="#">TJtech</a></div>
+    <ul class="nav__ul">
+      <li class="nav__li"><a href="flipper.html"><i class="fas fa-th-large"></i> Flipper Zero</a></li>
+      <li class="nav__li"><a href="cibersecurity.html"><i class="fas fa-shield-alt"></i> Herramientas de Ciberseguridad</a></li>
+      <li class="nav__li"><a href="PC.html"><i class="fas fa-desktop"></i> Mods de PC</a></li>
+      <li class="nav__li"><a href="accesories.html"><i class="fas fa-cogs"></i> Accesorios</a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Encabezado del Producto -->
+  <header>
+    <h1>Placa de Desarrollo WiFi para Flipper Zero</h1>
+    <p>Amplía las capacidades de tu Flipper Zero con la Placa de Desarrollo WiFi.</p>
+  </header>
+
+  <!-- Contenido Principal del Producto -->
+  <main>
+    <section class="product-details">
+      <div class="image-slider">
+        <div class="slider-track">
+          <img src="https://shop.flipperzero.one/cdn/shop/products/fpr_zero_wifi_3.jpg?v=1657197383" alt="Placa de Desarrollo WiFi - Vista Superior" class="active">
+          <img src="https://shop.flipperzero.one/cdn/shop/products/fpr_zero_wifi_1.jpg?v=1657197383" alt="Placa de Desarrollo WiFi - Vista Lateral">
+          <img src="https://shop.flipperzero.one/cdn/shop/products/fpr_zero_wifi_2.jpg?v=1657197383" alt="Placa de Desarrollo WiFi - Vista Inferior">
+        </div>
+        <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+      </div>
+
+      <div class="product-info">
+        <h2>Placa de Desarrollo WiFi</h2>
+        <p class="product-price">$29.00</p>
+        <p class="product-description">
+          La Placa de Desarrollo WiFi para Flipper Zero está basada en el módulo ESP32-S2, ofreciendo actualizaciones inalámbricas del firmware de Flipper Zero y depuración avanzada en circuito a través de USB o Wi-Fi. También admite funciones de pruebas de penetración Wi-Fi como la captura de PMKID y ataques de desautenticación, que requieren implementación adicional.
+        </p>
+        <ul class="product-features">
+          <li>Actualizaciones de firmware inalámbricas</li>
+          <li>Depuración avanzada en circuito</li>
+          <li>Capacidades de pruebas de penetración Wi-Fi</li>
+          <li>Módulo ESP32-S2</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer>
+    <p>&copy; 2023 TJtech. Todos los derechos reservados.</p>
+  </footer>     
+
+  <script src="me.js"></script>
+</body>
+</html>
