@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TJtech</title>
+  <link rel="stylesheet" href="me.css">
+  <script src="https://kit.fontawesome.com/3426e33aea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__brand"><a href="#">TJtech</a></div>
+    <ul class="nav__ul">
+      <li class="nav__li"><a href="flipper.html"><i class="fas fa-th-large"></i> Flipper Zero</a></li>
+      <li class="nav__li"><a href="cibersecurity.html"><i class="fas fa-shield-alt"></i> Cybersecurity Tools</a></li>
+      <li class="nav__li"><a href="PC.html"><i class="fas fa-desktop"></i> PC laptops and components </a></li>
+      <li class="nav__li"><a href="accesories.html"><i class="fas fa-cogs"></i> Accessories</a></li>
+      <li class="nav__li"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </div>
+  </nav>
+
+  <header>
+    <h1>TJtech</h1>
+    <p>Los mejores componentes del mercado a los mejores precios </p>
+  </header>
+
+  <main>
+    <div class="category" id="flipper-zero">
+      <h2>TARJETAS GRAFICAS</h2>
+      <div class="product-grid">
+
+        <!-- USB Rubberducky -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/rtx3060 (2).jpeg" alt="USB Rubberducky - Top View" class="active">
+            <img src="pcmods-products/rtx3060 (1).jpeg" alt="USB Rubberducky - Top View" class="active">
+            <img src="pcmods-products/rtx3060 (3).jpeg" alt="USB Rubberducky - Top View" class="active">
+            <img src="pcmods-products/rtx3060 (4).jpeg" alt="USB Rubberducky - Top View" class="active">
+            <img src="pcmods-products/rtx3060 (5).jpeg" alt="USB Rubberducky - Top View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>RTX 3060</h3>
+          <p>GIGABYTE - NVIDIA GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Graphics Card - Black</p>
+          <p>$489.99</p>
+          <a href="RTX3060.html" class="learn-more-button">Learn More</a>
+        </div>
+        <div class="product-grid">
+  
+          <!-- USB Rubberducky -->
+          <div class="product-card">
+            <div class="image-slider">
+              <img src="pcmods-products/4090 (5).jpg" alt="USB Rubberducky - Top View" class="active">
+              <img src="pcmods-products/4090 (4).jpg" alt="USB Rubberducky - Top View" class="active">
+              <img src="pcmods-products/4090 (3).jpg" alt="USB Rubberducky - Top View" class="active">
+              <img src="pcmods-products/4090 (2).jpg" alt="USB Rubberducky - Top View" class="active">
+              <img src="pcmods-products/4090 (1).jpg" alt="USB Rubberducky - Top View" class="active">
+              <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+              <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+            </div>
+            <h3>RTX 4090</h3>
+            <p>GIGABYTE - NVIDIA GeForce RTX 4090 Gaming OC 24GB GDDR6X PCI Express 4.0 Graphics Card - Black</p>
+            <p>2,599.99</p>
+            <a href="3060details.html" class="learn-more-button">Learn More</a>
+          </div>
+
+        <!-- WiFi Coconut -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/case.jpeg" alt="WiFi Coconut - Top View" class="active">
+            <img src="pcmods-products/57FE3E5B-DFB9-45E6-8DEE-212B8A2A48B5.jpeg" alt="WiFi Coconut - Top View" class="active">
+            <img src="pcmods-products/6E93350A-D416-470C-9601-C2B24D647825.jpeg" alt="WiFi Coconut - Top View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>NZXT - H5 Flow ATX Mid-Tower PC Case
+          </h3>
+          <p>$134.99</p>
+          <a href="wifi-coconut-details.html" class="learn-more-button">Learn More</a>
+        </div>
+
+        <!-- HackCat WiFi -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/ssd (2).jpeg" alt="HackCat WiFi - Main View" class="active">
+            <img src="pcmods-products/ssd (1).jpeg" alt="HackCat WiFi - Main View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>4TB SSD NVME SAMSUNG</h3>
+          <p>$349.99</p>
+          <a href="hackcat-wifi-details.html" class="learn-more-button">Learn More</a>
+        </div>
+
+        <!-- O.M.G Cable -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/power2.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power3.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power4.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power (1).jpeg" alt="O.M.G Cable - All View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>CORSAIR - RMe Series RM750e</h3>
+          <p>$149.99</p>
+          <a href="omg-cable-details.html" class="learn-more-button">Learn More</a>
+        </div>
+
+         <!-- O.M.G Cable -->
+         <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/power2.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power3.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power4.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power (1).jpeg" alt="O.M.G Cable - All View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3></h3>
+          <p>$149.99</p>
+          <a href="omg-cable-details.html" class="learn-more-button">Learn More</a>
+        </div>
+         <!-- O.M.G Cable -->
+         <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/power2.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power3.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power4.jpeg" alt="O.M.G Cable - All View" class="active">
+            <img src="pcmods-products/power (1).jpeg" alt="O.M.G Cable - All View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3></h3>
+          <p>$149.99</p>
+          <a href="omg-cable-details.html" class="learn-more-button">Learn More</a>
+        </div>
+
+
+        <!-- Deauther Watch -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/motherboard (2).jpeg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/motherboard2.jpeg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/7E8D35C4-1320-47DC-A58F-69FD7971B33D.jpeg " alt="Deauther Watch - Top View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>ASUS MOTHERBOARD GAMING</h3>
+          <p>$49.99</p>
+          <a href="deauther-watch-details.html" class="learn-more-button">Learn More</a>
+        </div>
+
+        <!-- Deauther Watch -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/watercooler (1).jpg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/watercooler (2).jpg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/watercooler (3).jpg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/watercooler (4).jpg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/watercooler (5).jpg" alt="Deauther Watch - Top View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>CORSAIR WATER COOLER</h3>
+          <p>$249.99</p>
+          <a href="deauther-watch-details.html" class="learn-more-button">Learn More</a>
+        </div>
+        
+        <!-- Deauther Watch -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/RAM32 (3).jpg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/RAM32 (1).jpg" alt="Deauther Watch - Top View" class="active">
+            <img src="pcmods-products/RAM32 (2).jpg" alt="Deauther Watch - Top View" class="active">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>Corsair vengance 32GB RAM</h3>
+          <p>$249.99</p>
+          <a href="deauther-watch-details.html" class="learn-more-button">Learn More</a>
+        </div>
+        </div>
+      </div>
+    </main>
+  
+    <footer>
+      <p>&copy; 2023 TJtech. All rights reserved.</p>
+    </footer>     
+  
+    <script src="me.js"></script>
+  </body>
+  </html>

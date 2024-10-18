@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TJtech</title>
+  <link rel="stylesheet" href="me.css">
+  <script src="https://kit.fontawesome.com/3426e33aea.js" crossorigin="anonymous"></script>
+  <script defer src="me.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__brand"><a href="#">TJtech</a></div>
+    <ul class="nav__ul">
+      <li class="nav__li"><a href="flipper.html"><i class="fas fa-th-large"></i> Flipper Zero</a></li>
+      <li class="nav__li"><a href="cybersecurity.html"><i class="fas fa-shield-alt"></i> Cybersecurity Tools</a></li>
+      <li class="nav__li"><a href="PC.html"><i class="fas fa-desktop"></i> PC, Laptops</a></li>
+      <li class="nav__li"><a href="accessories.html"><i class="fas fa-cogs"></i> Accessories</a></li>
+      <li class="nav__li"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </div>
+  </nav>
+
+  <header>
+    <h1>TJtech</h1>
+    <p>Los mejores componentes del mercado a los mejores precios</p>
+  </header>
+
+  <main>
+    <div class="category" id="flipper-zero">
+      <h2>TARJETAS GRAFICAS</h2>
+      <div class="product-grid">
+        <!-- Example product card -->
+        <div class="product-card">
+          <div class="image-slider">
+            <img src="pcmods-products/rtx3060_1.jpeg" alt="RTX 3060" class="active">
+            <img src="pcmods-products/rtx3060_2.jpeg" alt="RTX 3060">
+            <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+          </div>
+          <h3>RTX 3060</h3>
+          <p>GIGABYTE - NVIDIA GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Graphics Card - Black</p>
+          <p>$489.99</p>
+          <a href="RTX3060.html" class="learn-more-button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 TJtech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
